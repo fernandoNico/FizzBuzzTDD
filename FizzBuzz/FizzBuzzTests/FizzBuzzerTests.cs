@@ -12,20 +12,20 @@ namespace FizzBuzzTests
     [TestFixture]
     public class FizzBuzzerTests
     {
-        
-        //[Test]
-        //public void BuzzerWhen1Returns1()
-        //{
-        //    //Arrange
-        //    int input = 1; 
-           
-        //    //Act
-        //    string output = FizzBuzzer.GetValue(input);
-       
-        //    //Assert
-        //    Assert.AreEqual("1", output);
 
-        //}
+        [Test]
+        public void BuzzerWhen1Returns1()
+        {
+            //Arrange
+            int input = 1;
+
+            //Act
+            string output = FizzBuzzer.GetValue(input);
+
+            //Assert
+            Assert.AreEqual("1", output);
+
+        }
 
         [Test]
         public void BuzzerWhenDefaultReturnsInput(
