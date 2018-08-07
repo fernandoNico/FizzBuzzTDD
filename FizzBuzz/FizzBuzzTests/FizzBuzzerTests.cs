@@ -13,19 +13,19 @@ namespace FizzBuzzTests
     public class FizzBuzzerTests
     {
 
-        [Test]
-        public void BuzzerWhen1Returns1()
-        {
-            //Arrange
-            int input = 1;
+        //[Test]
+        //public void BuzzerWhen1Returns1()
+        //{
+        //    //Arrange
+        //    int input = 1;
 
-            //Act
-            string output = FizzBuzzer.GetValue(input);
+        //    //Act
+        //    string output = FizzBuzzer.GetValue(input);
 
-            //Assert
-            Assert.AreEqual("1", output);
+        //    //Assert
+        //    Assert.AreEqual("1", output);
 
-        }
+        //}
 
         [Test]
         public void BuzzerWhenDefaultReturnsInput(
